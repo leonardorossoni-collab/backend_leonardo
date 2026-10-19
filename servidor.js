@@ -26,7 +26,18 @@ let proximoId = 1;
 // Escreva a funcao validarTreino(corpo), que devolve a mensagem
 // de erro quando algo esta errado, ou null quando esta tudo certo.
 // ------------------------------------------------------------
-
+[{id: nome: duração: },
+    {id: n 
+function validartreino(treino){
+    if(typedef treino.nome !==`string` // treino.nome=``){
+        return console.log("nome invalido"){
+            return console.log("duracao invalida");
+            }
+    if (typedef treinoduracao !==`number` // treinoduracao<0)
+}
+return null
+    }
+]
 
 
 // ------------------------------------------------------------
