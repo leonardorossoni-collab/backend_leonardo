@@ -130,3 +130,12 @@ Content-Type: application/json
 
 ### Exercicio 16 - Perfil sem login
 GET http://localhost:3000/perfil
+
+### Exercicio 17 - Login Aluno
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "usuario": "aluno",
+    "senha": "senha"
+}
