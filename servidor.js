@@ -10,6 +10,7 @@
 
 const express = require('express');
 const app = express();
+const db = require('./banco.js');
 
 // Faz o Express entender JSON no corpo das requisicoes
 app.use(express.json());
@@ -18,8 +19,7 @@ app.use(express.json());
 // Os dados moram aqui, na memoria. Somem quando o servidor cai.
 // (Na Aula 03 isso vira banco de dados.)
 // ------------------------------------------------------------
-const treinos = [];
-let proximoId = 1;
+
 
 // ------------------------------------------------------------
 // Validacao
