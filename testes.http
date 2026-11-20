@@ -142,3 +142,30 @@ Content-Type: application/json
 
 ### Exercicio 17 - Perfil Aluno
 GET http://localhost:3000/perfil
+
+### Exercicio 18 - Cadastrar treino sem login
+POST http://localhost:3000/treinos
+Content-Type: application/json
+
+{
+    "nome": "Corrida",
+    "duracao": 30
+}
+
+### Exercicio 18 - Login para cadastrar treino
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "usuario": "diego",
+    "senha": "1234"
+}
+
+### Exercicio 18 - Cadastrar treino logado
+POST http://localhost:3000/treinos
+Content-Type: application/json
+
+{
+    "nome": "Corrida",
+    "duracao": 30
+}
