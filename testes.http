@@ -90,3 +90,15 @@ DELETE {{url}}/treinos/99999
 
 ### 12 - Listar de novo pra conferir       -> espera 200
 GET {{url}}/treinos
+
+### Login Diego
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "usuario": "diego",
+    "senha": "1234"
+}
+
+### Perfil
+GET http://localhost:3000/perfil
