@@ -27,13 +27,15 @@ let proximoId = 1;
 // de erro quando algo esta errado, ou null quando esta tudo certo.
 // ------------------------------------------------------------
 function validarTreino(corpo) {
-if (typeof corpo.nome !== 'string ' || corpo.nome.trim() === ''){
-return 'O campo nome e obrigatorio e deve ser um texto .';
-}
-if (typeof corpo.duracao !== 'number ' || corpo.duracao <= 0) {
-return 'O campo duracao e obrigatorio e deve ser um numero maior que zero .';
-}
-return null ;
+    if (typeof corpo.nome !== 'string' || corpo.nome.trim() === '') {
+        return 'O campo nome e obrigatorio e deve ser um texto.';
+    }
+
+    if (typeof corpo.duracao !== 'number' || corpo.duracao <= 0) {
+        return 'O campo duracao e obrigatorio e deve ser um numero maior que zero.';
+    }
+
+    return null;
 }
 
 
