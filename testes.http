@@ -139,3 +139,6 @@ Content-Type: application/json
     "usuario": "aluno",
     "senha": "senha"
 }
+
+### Exercicio 17 - Perfil Aluno
+GET http://localhost:3000/perfil
