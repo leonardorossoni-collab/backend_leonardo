@@ -109,3 +109,12 @@ POST http://localhost:3000/logout
 
 ### Perfil depois do logout
 GET http://localhost:3000/perfil
+
+### Exercicio 16 - Senha errada
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "usuario": "diego",
+    "senha": "9999"
+}
