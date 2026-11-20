@@ -1,3 +1,7 @@
-# Feedback - Aula 02
+Leonardo, a aula 02 e a aula 03 têm toda a estrutura que eu pedi: as cinco rotas, a validação, o CRUD completo. O problema é que o servidor.js tem erro de sintaxe na função validartreino, tem até um "typedef", que não existe em JavaScript, e as aspas das rotas estão com o tipo errado, curvas em vez de retas. Isso impede o Node de carregar o arquivo, então nada roda. Por isso contei a entrega, mas só com nota parcial, 0,5 em cada: o trabalho está lá, só não funciona.
 
-Leonardo, o commit que você mandou dizendo que terminou a aula 2 não funciona. O arquivo tem aspas curvas em vez de aspas normais, e a função de validação tem erro de sintaxe que nem roda, tipo um 'typedef' que não existe em JavaScript. É exatamente o que o material avisa pra não fazer, que é copiar de PDF em vez de digitar. Preciso lançar a nota até sexta-feira, do jeito que está a aula 2 conta como não entregue. Reescreve digitando direto no editor, sem colar de lugar nenhum.
+Na aula 04 não tem nenhum commit seu, então ficou zero, não tem o que avaliar.
+
+A recuperação do primeiro momento está na lista de revisão. Estuda a lista de revisão e se prepara, assim você recupera a nota.
+
+Os outros 2 pontos desse primeiro momento são a arguição, na próxima aula, no laboratório.
