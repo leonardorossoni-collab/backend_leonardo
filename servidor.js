@@ -11,6 +11,7 @@
 const express = require('express');
 const app = express();
 const db = require('./banco.js');
+const authController = require('./controller/authController.js');
 
 // Faz o Express entender JSON no corpo das requisicoes
 app.use(express.json());
@@ -114,6 +115,10 @@ db.prepare('DELETE FROM treinos WHERE id = ?').run(id);
 res.status(204).end();
 });
 
+// Autenticacao (Aula 05)
+app.post('/login', authController.login);
+app.get('/perfil', authController.perfil);
+app.post('/logout', authController.logout);
 
 // ------------------------------------------------------------
 const PORTA = 3000;
