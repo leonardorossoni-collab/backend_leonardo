@@ -66,6 +66,12 @@ res.status(200).json(treino);
 // POST /treinos - cria um treino (400 se os dados forem invalidos)
 // ------------------------------------------------------------
 app.post('/treinos', (req, res) => {
+    const usuario = authController.usuarioDaRequisicao(req);
+
+if (usuario === null) {
+    return res.status(401).json({ erro: 'Faca login primeiro.' });
+}
+
 const erro = validarTreino(req.body);
 if (erro !== null){
 return res.status(400).json({ erro: erro });
