@@ -127,3 +127,6 @@ Content-Type: application/json
     "usuario": "naoexiste",
     "senha": "1234"
 }
+
+### Exercicio 16 - Perfil sem login
+GET http://localhost:3000/perfil
