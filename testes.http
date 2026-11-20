@@ -103,3 +103,6 @@ Content-Type: application/json
 ### Perfil
 GET http://localhost:3000/perfil
 Cookie: sid=COLOQUE_O_TOKEN_AQUI
+
+### Logout
+POST http://localhost:3000/logout
